@@ -1,0 +1,74 @@
+{
+    "list_concert": [
+        {
+            "id": 1,
+            "banner_img": "/details/concert-banner.jpeg",
+            "name": "Karol G: Mañana Será Bonito Tour",
+            "description": "La Bichota más grande, en vivo",
+            "dates_places": [
+                {
+                    "date": "Junio 10, 9:00 PM",
+                    "place": "Cali, Estadio Olímpico Pascual Guerrero"
+                },
+                {
+                    "date": "Junio 11, 9:00 PM",
+                    "place": "Bogotá, DC, Estadio El Campín"
+                },
+                {
+                    "date": "Junio 12, 9:00 PM",
+                    "place": "Medellín, Estadio Atanasio Girardot"
+                }
+            ],
+            "details": {
+                "title": "Karol G - Mañana Será Bonito Tour",
+                "min_description": "La Bichota regresa a casa",
+                "long_description": "Karol G regresa a Colombia con su gira mundial 'Mañana Será Bonito', presentando todos sus éxitos y nuevas canciones. Un espectáculo sin precedentes con efectos especiales, bailarines y sorpresas que harán de esta noche algo inolvidable.",
+                "capacity": 45000,
+                "place": "Medellín, Estadio Atanasio Girardot",
+                "date": "13 Abril 2024"
+            },
+            "important_info": {
+                "restriction": "Evento para mayores de 18 años",
+                "schedule": {
+                    "open_door": "5:00 PM",
+                    "start_event": "7:00 PM"
+                }
+            }
+        },
+        {
+            "id": 2,
+            "banner_img": "/details/concert-banner.jpeg",
+            "name": "Karol G: Mañana Será Bonito Tour",
+            "description": "La Bichota más grande, en vivo",
+            "dates_places": [
+                {
+                    "date": "Junio 10, 9:00 PM",
+                    "place": "Cali, Estadio Olímpico Pascual Guerrero"
+                },
+                {
+                    "date": "Junio 11, 9:00 PM",
+                    "place": "Bogotá, DC, Estadio El Campín"
+                },
+                {
+                    "date": "Junio 12, 9:00 PM",
+                    "place": "Medellín, Estadio Atanasio Girardot"
+                }
+            ],
+            "details": {
+                "title": "Karol G - Mañana Será Bonito Tour",
+                "min_description": "La Bichota regresa a casa",
+                "long_description": "Karol G regresa a Colombia con su gira mundial 'Mañana Será Bonito', presentando todos sus éxitos y nuevas canciones. Un espectáculo sin precedentes con efectos especiales, bailarines y sorpresas que harán de esta noche algo inolvidable.",
+                "capacity": 45000,
+                "place": "Medellín, Estadio Atanasio Girardot",
+                "date": "13 Abril 2024"
+            },
+            "important_info": {
+                "restriction": "Evento para mayores de 18 años",
+                "schedule": {
+                    "open_door": "5:00 PM",
+                    "start_event": "7:00 PM"
+                }
+            }
+        }
+    ]
+}
