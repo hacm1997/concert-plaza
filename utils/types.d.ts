@@ -14,12 +14,15 @@ export interface DatePlace {
 }
 
 interface ConcertDetails {
+  type: string;
   title: string;
   min_description: string;
   long_description: string;
   capacity: number;
   place: string;
   date: string;
+  afiche_img?: string;
+  afiche_link?: string;
 }
 
 interface ImportantInfo {

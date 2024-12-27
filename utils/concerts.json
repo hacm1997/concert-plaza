@@ -20,12 +20,15 @@
                 }
             ],
             "details": {
+                "type": "Concierto",
                 "title": "Karol G - Mañana Será Bonito Tour",
                 "min_description": "La Bichota regresa a casa",
                 "long_description": "Karol G regresa a Colombia con su gira mundial 'Mañana Será Bonito', presentando todos sus éxitos y nuevas canciones. Un espectáculo sin precedentes con efectos especiales, bailarines y sorpresas que harán de esta noche algo inolvidable.",
                 "capacity": 45000,
                 "place": "Medellín, Estadio Atanasio Girardot",
-                "date": "13 Abril 2024"
+                "date": "13 Abril 2024",
+                "afiche_img": "",
+                "afiche_link": ""
             },
             "important_info": {
                 "restriction": "Evento para mayores de 18 años",
@@ -55,12 +58,15 @@
                 }
             ],
             "details": {
+                "type": "Concierto",
                 "title": "Karol G - Mañana Será Bonito Tour",
                 "min_description": "La Bichota regresa a casa",
                 "long_description": "Karol G regresa a Colombia con su gira mundial 'Mañana Será Bonito', presentando todos sus éxitos y nuevas canciones. Un espectáculo sin precedentes con efectos especiales, bailarines y sorpresas que harán de esta noche algo inolvidable.",
                 "capacity": 45000,
                 "place": "Medellín, Estadio Atanasio Girardot",
-                "date": "13 Abril 2024"
+                "date": "13 Abril 2024",
+                "afiche_img": "",
+                "afiche_link": ""
             },
             "important_info": {
                 "restriction": "Evento para mayores de 18 años",
