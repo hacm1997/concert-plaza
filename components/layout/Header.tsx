@@ -13,7 +13,7 @@ export const Header = () => {
     };
 
     return (
-        <header className="w-full bg-[#14171F] fixed">
+        <header className="w-full bg-[#14171F] fixed z-50">
             <div className="flex justify-around items-center h-[72px]">
                 <div className="flex items-center">
                     <Image
