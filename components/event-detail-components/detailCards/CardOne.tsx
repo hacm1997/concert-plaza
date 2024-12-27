@@ -6,7 +6,7 @@ import { PiUsersBold } from "react-icons/pi";
 
 export const CardOne = ({ type, title, min_description, long_description, date, place, capacity }: ConcertDetails) => {
     return (
-        <div className='bg-[#14171F] p-[24px] 2xl:px-[30px] rounded-[8px] transition-all duration-100 hover:shadow-cyan-glow'>
+        <div className='bg-[#14171F] p-[24px] 2xl:px-[30px] rounded-[8px]'>
             <div className='flex flex-col-reverse lg:flex-row justify-between items-start'>
                 <div className='pt-4 lg:pt-0'>
                     <h2 className='text-[26px] 2xl:text-[32px] font-bold'>{title}</h2>
@@ -26,7 +26,7 @@ export const CardOne = ({ type, title, min_description, long_description, date, 
             </div>
 
             <div className='pt-[24px] flex flex-wrap gap-[24px]'>
-                <div className='bg-[#1A1E28] p-[16px] 2xl:p-[20px] rounded-[8px] flex-grow'>
+                <div className='bg-[#1A1E28] p-[16px] 2xl:p-[20px] rounded-[8px] flex-grow transition-all duration-100 hover:shadow-cyan-glow'>
                     <span className='flex items-center text-[#D3ABF6] gap-2'>
                         <IoMdCalendar className='w-[22px] h-[22px]' />
                         <label className='text-[16px] 2xl:text-[18px]'>Fecha</label>
@@ -39,7 +39,7 @@ export const CardOne = ({ type, title, min_description, long_description, date, 
                     </p>
                 </div>
 
-                <div className='bg-[#1A1E28] p-[16px] 2xl:p-[20px] rounded-[8px] flex-grow lg:w-auto'>
+                <div className='bg-[#1A1E28] p-[16px] 2xl:p-[20px] rounded-[8px] flex-grow lg:w-auto transition-all duration-100 hover:shadow-cyan-glow'>
                     <span className='flex items-center text-[#D3ABF6] gap-2'>
                         <MdOutlineLocationOn className='w-[22px] h-[22px]' />
                         <label className='text-[16px] 2xl:text-[18px]'>Lugar</label>
@@ -52,7 +52,7 @@ export const CardOne = ({ type, title, min_description, long_description, date, 
                     </p>
                 </div>
 
-                <div className='bg-[#1A1E28] p-[16px] 2xl:p-[20px] rounded-[8px] flex-grow'>
+                <div className='bg-[#1A1E28] p-[16px] 2xl:p-[20px] rounded-[8px] flex-grow transition-all duration-100 hover:shadow-cyan-glow'>
                     <span className='flex items-center text-[#D3ABF6] gap-2'>
                         <PiUsersBold className='w-[22px] h-[22px]' />
                         <label className='text-[16px] 2xl:text-[18px]'>Capacidad</label>
