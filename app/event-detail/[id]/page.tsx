@@ -22,7 +22,7 @@ export default function Page() {
             <Banner banner_img={concertData.banner_img} name={concertData?.name} description={concertData?.description} dates_places={concertData?.dates_places ?? []} />
             <div className="px-[40px] sm:px-[90px] 2xl:px-[170px]">
               <MainHeading />
-              <ConcertDetailsComponent {...concertData.details} />
+              <ConcertDetailsComponent {...concertData.details} {...concertData.important_info} />
               <ChangeDateCity setLocation={setLocation} />
               <LocationSelection location={location} />
             </div>

@@ -34,3 +34,5 @@ interface Schedule {
   open_door: string;
   start_event: string;
 }
+
+export interface ConcertDetailsComponentProps extends ConcertDetails, ImportantInfo {}

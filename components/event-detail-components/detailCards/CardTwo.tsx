@@ -3,8 +3,13 @@ import { LuClock5 } from "react-icons/lu";
 import { FaRegStar } from "react-icons/fa";
 import { MdOutlineShare } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
+import { Schedule } from "@/utils/types";
 
-export const CardTwo = () => {
+interface Props {
+    restriction: string;
+    schedule: Schedule;
+}
+export const CardTwo = ({ restriction, schedule }: Props) => {
     return (
         <div className='bg-[#14171F] p-[24px] 2xl:px-[30px] rounded-[8px] mt-[24px]'>
             <div className='flex flex-col-reverse lg:flex-row justify-between items-start'>
@@ -18,7 +23,7 @@ export const CardTwo = () => {
                     <FiInfo className="font-bold text-[#D3ABF6] w-[24px] h-[24px] 2xl:pt-1" />
                     <div className="flex flex-col gap-2">
                         <span className="text-[16px] 2xl:text-[18px]">Restricciones de edad</span>
-                        <span className="text-[14px] 2xl:text-[16px]">Evento para mayores de 18 años.</span>
+                        <span className="text-[14px] 2xl:text-[16px]">{restriction}</span>
                     </div>
                 </div>
 
@@ -27,8 +32,8 @@ export const CardTwo = () => {
                     <div className="flex flex-col gap-2">
                         <span className="text-[16px] 2xl:text-[18px]">Horarios</span>
                         <div className="text-[14px] 2xl:text-[16px] flex flex-col">
-                            <span>Apertura de puertas: 5:00 PM.</span>
-                            <span>Inicio del evento: 7:00 PM.</span>
+                            <span>Apertura de puertas: {schedule.open_door ?? ''}.</span>
+                            <span>Inicio del evento: {schedule.start_event ?? ''}.</span>
                         </div>
                     </div>
                 </div>
