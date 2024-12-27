@@ -1,6 +1,7 @@
 'use client'
 
 import { Banner } from "@/components/event-detail-components/Banner";
+import { ChangeDateCity } from "@/components/event-detail-components/ChangeDateCity";
 import { ConcertDetailsComponent } from "@/components/event-detail-components/ConcertDetails";
 import { MainHeading } from "@/components/event-detail-components/MainHeading";
 import { MainLayout } from "@/components/layout/MainLayout";
@@ -19,6 +20,7 @@ export default function Page() {
             <div className="px-[40px] sm:px-[90px] 2xl:px-[170px]">
               <MainHeading />
               <ConcertDetailsComponent {...concertData.details} />
+              <ChangeDateCity />
             </div>
           </>
           :
