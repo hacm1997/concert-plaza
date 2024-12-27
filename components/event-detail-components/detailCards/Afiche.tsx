@@ -6,7 +6,7 @@ interface Props {
 }
 export const Afiche = ({ afiche_img, afiche_link }: Props) => {
     return (
-        <div className='bg-[#14171F] rounded-[8px] p-[24px] 2xl:p-[30px]'>
+        <div className='bg-[#14171F] rounded-[8px] p-[24px] 2xl:p-[30px] transition-all duration-100 hover:shadow-cyan-glow'>
             <h3 className='text-[#E4E4E7] font-bold text-[26px] 2xl:text-[30px]'>
                 Afiche oficial
             </h3>

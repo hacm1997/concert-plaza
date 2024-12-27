@@ -6,7 +6,7 @@ import { PiUsersBold } from "react-icons/pi";
 
 export const CardOne = ({ type, title, min_description, long_description, date, place, capacity }: ConcertDetails) => {
     return (
-        <div className='bg-[#14171F] p-[24px] 2xl:px-[30px] rounded-[8px]'>
+        <div className='bg-[#14171F] p-[24px] 2xl:px-[30px] rounded-[8px] transition-all duration-100 hover:shadow-cyan-glow'>
             <div className='flex flex-col-reverse lg:flex-row justify-between items-start'>
                 <div className='pt-4 lg:pt-0'>
                     <h2 className='text-[26px] 2xl:text-[32px] font-bold'>{title}</h2>

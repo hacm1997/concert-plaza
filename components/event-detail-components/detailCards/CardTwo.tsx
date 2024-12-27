@@ -6,7 +6,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 export const CardTwo = () => {
     return (
-        <div className='bg-[#14171F] p-[24px] 2xl:px-[30px] rounded-[8px] mt-[24px]'>
+        <div className='bg-[#14171F] p-[24px] 2xl:px-[30px] rounded-[8px] mt-[24px] transition-all duration-100 hover:shadow-cyan-glow'>
             <div className='flex flex-col-reverse lg:flex-row justify-between items-start'>
                 <div className='pt-4 lg:pt-0'>
                     <h2 className='text-[26px] 2xl:text-[32px] font-bold'>Información importante</h2>
