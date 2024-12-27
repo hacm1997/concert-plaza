@@ -1,6 +1,7 @@
 'use client'
 
 import { Banner } from "@/components/event-detail-components/Banner";
+import { MainHeading } from "@/components/event-detail-components/MainHeading";
 import { MainLayout } from "@/components/layout/MainLayout";
 import { useConcert } from "@/hooks/useConcert";
 
@@ -11,7 +12,10 @@ export default function Page() {
   return (
     <MainLayout>
       {concertData &&
-        <Banner banner_img={concertData.banner_img} name={concertData?.name} description={concertData?.description} dates_places={concertData?.dates_places ?? []} />
+        <>
+          <Banner banner_img={concertData && concertData.banner_img} name={concertData?.name} description={concertData?.description} dates_places={concertData?.dates_places ?? []} />
+          <MainHeading />
+        </>
       }
     </MainLayout>
   );
