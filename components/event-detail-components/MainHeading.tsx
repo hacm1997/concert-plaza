@@ -17,14 +17,14 @@ export const MainHeading = () => {
 
 
             <div className='pt-[26px]'>
-                <Link href='#' title='Previous event'>
+                <a href='#' title='Previous event'>
                     <div className='flex items-center justify-center sm:justify-normal gap-[9px]'>
                         <MdKeyboardArrowLeft className='text-[#9CF3E6] font-normal text-[24px]' />
                         <p className='text-[#9CF3E6] font-normal text-[16px]'>
                             Volver al inicio
                         </p>
                     </div>
-                </Link>
+                </a>
             </div>
         </div>
     )
