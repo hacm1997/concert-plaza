@@ -18,7 +18,7 @@ export const ScenarioTickets = () => {
             {ticketValues.map((ticket) => (
                 <div
                     key={ticket.id}
-                    className="bg-[#1A1E28] rounded-[8px] p-[16px] 2xl:p-[18px] mb-4"
+                    className="bg-[#1A1E28] rounded-[8px] p-[16px] 2xl:p-[18px] mb-4 transition-all duration-100 hover:shadow-cyan-glow"
                 >
                     <div className="flex justify-between">
                         <p className="font-bold text-[16px] 2xl:text-[18px]">{ticket.name}</p>
