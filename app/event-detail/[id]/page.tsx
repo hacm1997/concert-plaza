@@ -3,13 +3,16 @@
 import { Banner } from "@/components/event-detail-components/Banner";
 import { ChangeDateCity } from "@/components/event-detail-components/ChangeDateCity";
 import { ConcertDetailsComponent } from "@/components/event-detail-components/ConcertDetails";
+import { LocationSelection } from "@/components/event-detail-components/LocationSelection";
 import { MainHeading } from "@/components/event-detail-components/MainHeading";
 import { MainLayout } from "@/components/layout/MainLayout";
 import { useConcert } from "@/hooks/useConcert";
+import { useState } from "react";
 
 
 export default function Page() {
   const concertData = useConcert();
+  const [location, setLocation] = useState("")
 
   return (
     <>
@@ -20,7 +23,8 @@ export default function Page() {
             <div className="px-[40px] sm:px-[90px] 2xl:px-[170px]">
               <MainHeading />
               <ConcertDetailsComponent {...concertData.details} />
-              <ChangeDateCity />
+              <ChangeDateCity setLocation={setLocation} />
+              <LocationSelection location={location} />
             </div>
           </>
           :

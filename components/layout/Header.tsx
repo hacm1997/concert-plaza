@@ -66,16 +66,20 @@ export const Header = () => {
 
             {/* Mobile menu */}
             {isOpen && (
-                <div className="md:hidden" ref={ref}>
-                    <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <div className="md:hidden h-[90vh] flex flex-col justify-around" ref={ref}>
+                    <div className="px-2 pt-2 pb-3 space-y-8 sm:px-3 text-center">
                         <Link href="#" className="text-[#E4E4E7] block px-3 py-2 rounded-md text-base font-medium">Home</Link>
                         <Link href="#" className="text-[#E4E4E7] block px-3 py-2 rounded-md text-base font-medium">Eventos</Link>
                         <Link href="#" className="text-[#E4E4E7] block px-3 py-2 rounded-md text-base font-medium">Soy Empresario</Link>
                         <Link href="#" className="text-[#E4E4E7] block px-3 py-2 rounded-md text-base font-medium">Soy Artista</Link>
                     </div>
                     <div className="pt-4 pb-3 border-t border-gray-700">
+                        <div className="flex justify-center pb-2">
+                            <div className="w-[90%]">
+                                <CountrySelect />
+                            </div>
+                        </div>
                         <div className="px-2 space-y-1">
-                            <CountrySelect />
                             <button className="w-full bg-[#202531] text-[#E4E4E7] text-[12px] py-[12px] px-[16px] rounded-[4px] mt-2">
                                 Registrase
                             </button>

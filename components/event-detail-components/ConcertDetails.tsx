@@ -17,7 +17,7 @@ export const ConcertDetailsComponent: React.FC<ConcertDetails> = ({
 }) => {
     return (
         <div className="flex flex-col md:flex-row gap-[24px]">
-            <div className="flex flex-col md:w-[65%] order-2 md:order-1">
+            <div className="flex flex-col md:w-[65%] 2xl:w-[72%] order-2 md:order-1">
                 <CardOne
                     type={type}
                     title={title}
