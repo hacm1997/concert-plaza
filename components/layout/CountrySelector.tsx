@@ -52,12 +52,12 @@ const CountrySelect: React.FC = () => {
 
                 {/* Menú desplegable */}
                 {isOpen && (
-                    <div className="absolute z-10 mt-2 w-full bg-transparent rounded-md shadow-lg">
+                    <div className="md:absolute md:z-10 mt-2 w-full bg-[#14171F] rounded-md shadow-lg">
                         {countries.map((country) => (
                             <div
                                 key={country.value}
                                 onClick={() => handleSelect(country)}
-                                className="flex items-center gap-2 px-3 py-2 cursor-pointer"
+                                className="flex items-center gap-2 px-3 py-2 cursor-pointer hover:bg-[#9233E9]"
                             >
                                 <Image
                                     src={country.flag}
