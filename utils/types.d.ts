@@ -13,7 +13,7 @@ export interface DatePlace {
   place: string;
 }
 
-interface ConcertDetails {
+export interface ConcertDetails {
   type: string;
   title: string;
   min_description: string;

@@ -5,7 +5,7 @@ import { MdKeyboardArrowLeft } from "react-icons/md";
 
 export const MainHeading = () => {
     return (
-        <div className='px-[40px] sm:px-[90px] 2xl:px-[170px] pb-[40px]'>
+        <div className='pb-[40px]'>
             <div className='pt-[80px] flex flex-col gap-4 sm:gap-0 sm:flex-row justify-between items-center'>
                 <h2 className='font-bold text-[31px]'>
                     Detalles del evento

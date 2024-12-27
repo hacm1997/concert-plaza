@@ -27,8 +27,8 @@
                 "capacity": 45000,
                 "place": "Medellín, Estadio Atanasio Girardot",
                 "date": "13 Abril 2024",
-                "afiche_img": "",
-                "afiche_link": ""
+                "afiche_img": "/details/afiche_img_default.png",
+                "afiche_link": "#"
             },
             "important_info": {
                 "restriction": "Evento para mayores de 18 años",
@@ -65,8 +65,8 @@
                 "capacity": 45000,
                 "place": "Medellín, Estadio Atanasio Girardot",
                 "date": "13 Abril 2024",
-                "afiche_img": "",
-                "afiche_link": ""
+                "afiche_img": "/details/afiche_img_default.png",
+                "afiche_link": "#"
             },
             "important_info": {
                 "restriction": "Evento para mayores de 18 años",
